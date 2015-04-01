@@ -4,7 +4,7 @@ import java.util.Vector;
 
 
 
-public class CGangjwa implements Serializable{
+public abstract class CGangjwa extends CEntity{
 	
 	private static final long serialVersionUID = 1L;
 	private int ID;
